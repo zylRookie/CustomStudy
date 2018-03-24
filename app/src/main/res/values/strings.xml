@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyLine</string>
+
+    <string name="color1">#e46cdc</string>
+    <string name="color2">#0b65d2</string>
+    <string name="color3">#f5083b</string>
+    <string name="color4">#52d4f9</string>
+    <string name="color5">#26e977</string>
+    <string name="color6">#f96d1c</string>
+</resources>
