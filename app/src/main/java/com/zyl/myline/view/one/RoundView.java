@@ -3,10 +3,16 @@ package com.zyl.myline.view.one;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.RectF;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.zyl.myline.R;
+
+import java.util.Random;
 
 
 /**
@@ -15,7 +21,7 @@ import android.view.View;
 
 public class RoundView extends View {
 
-    private String[] strArr = {"Feroyo", "GB", "ICS", "JB", "KitKat", "L"};
+    private String[] strArr = {"Android", "ios", "java", "js", "php", ".net"};
     public RoundView(Context context) {
         super(context);
     }
@@ -34,11 +40,11 @@ public class RoundView extends View {
     protected void onDraw(Canvas canvas) {
 
         //------------------基本的圆----drawCircle----------------
-        Paint paint = new Paint();
+      /*  Paint paint = new Paint();
         paint.setStrokeWidth(30);
-//        paint.setColor(R.color.color5);
+        paint.setColor(R.color.color5);
         paint.setStyle(Paint.Style.STROKE);
-        canvas.drawCircle(200f,200f,150,paint);
+        canvas.drawCircle(200f,200f,150,paint);*/
 
 
         //------------------基本的矩形----drawRect----------------
@@ -156,7 +162,7 @@ public class RoundView extends View {
 
 
         //------------------基本的柱状图--------------------
-       /* int width = getWidth();
+        int width = getWidth();
         int min=100;
         int max=700;
         Random random = new Random();
@@ -175,7 +181,7 @@ public class RoundView extends View {
             paint.setTextSize(40);
             paint.setColor(Color.BLACK);
             canvas.drawText(strArr[i],190+i*140-paint.measureText(strArr[i]) / 2,840,paint);
-        }*/
+        }
     }
 
 }
