@@ -8,17 +8,45 @@
 
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.zyl.myline.view.five.AnimtorView
+            android:id="@+id/anv1"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp" />
+
+        <Button
+            android:onClick="start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="OnClick" />
+
         <com.zyl.myline.view.one.MyView
             android:id="@+id/myView"
             android:layout_width="match_parent"
-            android:layout_height="300dp" />
+            android:layout_height="450dp" />
+
+
 
         <com.zyl.myline.view.one.RoundView
             android:layout_width="wrap_content"
-            android:layout_height="400dp" />
+            android:layout_height="500dp" />
+
+        <com.zyl.myline.view.two.ShaderView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp" />
+
+        <com.zyl.myline.view.three.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp" />
+
+        <com.zyl.myline.view.four.DrawBitmapView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp" />
+
+
     </LinearLayout>
 
 

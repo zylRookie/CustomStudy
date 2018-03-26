@@ -7,7 +7,6 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 
 import java.text.DecimalFormat;
@@ -33,6 +32,7 @@ public class MyView extends View {
      * 元素的颜色
      */
     private List<String> mColors = new ArrayList<>();
+    float progress = 0;
 
     ArrayList<Float> r = new ArrayList<>();
     ArrayList<String> txt = new ArrayList<>();
@@ -49,6 +49,15 @@ public class MyView extends View {
     public MyView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
+    }
+
+    public float getProgress() {
+        return progress;
+    }
+
+    public void setProgress(float progress) {
+        this.progress = progress;
+        invalidate();
     }
 
 
