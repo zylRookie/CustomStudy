@@ -2,6 +2,7 @@ package com.zyl.myline;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -95,5 +96,9 @@ public class MainActivity extends AppCompatActivity {
         oc.setDuration(2000);
         oc.setInterpolator(new AccelerateDecelerateInterpolator());
         oc.start();
+    }
+
+    public void intentSend(View view) {
+        startActivity(new Intent(this,Main2Activity.class));
     }
 }

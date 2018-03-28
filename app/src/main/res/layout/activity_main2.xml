@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zyl.myline.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.zyl.myline.view.Today.zhuChat
+            android:layout_width="wrap_content"
+            android:layout_height="280dp" />
+
+        <com.zyl.myline.view.Today.HView
+            android:id="@+id/hv"
+            android:layout_width="wrap_content"
+            android:layout_height="320dp" />
+
+        <TextView
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="@color/color7"
+            android:layout_marginBottom="20dp"
+            android:text="经鉴定，此玩家跑的比较快！"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/rcy"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="400dp">-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+    </LinearLayout>
+
+
+    <!--<HorizontalScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="300dp">-->
+
+    <!--&lt;!&ndash;<include layout="@layout/layout_line"/>&ndash;&gt;-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<com.zyl.myline.view.Today.HView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="300dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:src="@mipmap/ic_launcher" />-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="300dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@mipmap/ic_launcher" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="300dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@mipmap/ic_launcher" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="300dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@mipmap/ic_launcher" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="300dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@mipmap/ic_launcher" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="300dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@mipmap/ic_launcher" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="300dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@mipmap/ic_launcher" />&ndash;&gt;-->
+
+
+    <!--</LinearLayout>-->
+
+
+    <!--</HorizontalScrollView>-->
+
+</ScrollView>
