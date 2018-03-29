@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context="com.zyl.myline.Main2Activity">
 
     <LinearLayout
@@ -13,7 +14,7 @@
 
         <com.zyl.myline.view.Today.zhuChat
             android:layout_width="wrap_content"
-            android:layout_height="280dp" />
+            android:layout_height="350dp" />
 
         <com.zyl.myline.view.Today.HView
             android:id="@+id/hv"
@@ -21,11 +22,22 @@
             android:layout_height="320dp" />
 
         <TextView
-            android:textSize="18dp"
-            android:gravity="center"
-            android:textColor="@color/color7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
+            android:gravity="center"
             android:text="经鉴定，此玩家跑的比较快！"
+            android:textColor="@color/color7"
+            android:textSize="18dp" />
+
+        <com.zyl.myline.view.Today.ProgressView
+            android:id="@+id/pv"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp" />
+
+
+        <Button
+            android:onClick="start"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

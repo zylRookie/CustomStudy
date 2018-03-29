@@ -107,49 +107,50 @@ public class HView extends View {
                 case 0:
                     canvas.drawText(names[i], x - paintT.measureText(names[i]) / 2 - 20, y - paintT.measureText(names[i]) / 2, paintT);
                     canvas.drawText(getPj(datas.get(i)), x + paintT.measureText(names[i]) / 2 - 10, y - paintT.measureText(names[i]) / 2 + 5, paintP);
-                    canvas.drawPoint(x, y + r / 100 * (100 - datas.get(i)), paintP);
-                    path1.lineTo(x, y + r / 100 * (100 - datas.get(i)));
                     path2.lineTo(x, y + r / 100 * (100 - datas.get(i)));
+                    path1.lineTo(x, y + r / 100 * (100 - datas.get(i)));
+                    canvas.drawPoint(x, y + r / 100 * (100 - datas.get(i)), paintP);
                     break;
                 case 3:
                     canvas.drawText(names[i], x - paintT.measureText(names[i]) / 2 - 20, y + 10 + paintT.measureText(names[i]) / 2, paintT);
                     canvas.drawText(getPj(datas.get(i)), x + paintT.measureText(names[i]) / 2 - 10, y + 10 + paintT.measureText(names[i]) / 2 + 5, paintP);
-                    canvas.drawPoint(x, y - r / 100 * (100 - datas.get(i)), paintP);
-                    path1.lineTo(x, y - r / 100 * (100 - datas.get(i)));
                     path2.lineTo(x, y - r / 100 * (100 - datas.get(i)));
+                    path1.lineTo(x, y - r / 100 * (100 - datas.get(i)));
+                    canvas.drawPoint(x, y - r / 100 * (100 - datas.get(i)), paintP);
+
                     break;
                 case 1:
                     canvas.drawText(names[i], x + 10, y, paintT);
                     canvas.drawText(getPj(datas.get(i)), x + paintT.measureText(names[i]) + 15, y + 5, paintP);
-                    canvas.drawPoint(x - xr * (100 - datas.get(i)), y + yr * (100 - datas.get(i)), paintP);
-                    path1.lineTo(x - xr * (100 - datas.get(i)), y + yr * (100 - datas.get(i)));
                     path2.lineTo(x - xr * (100 - datas.get(i)), y + yr * (100 - datas.get(i)));
+                    path1.lineTo(x - xr * (100 - datas.get(i)), y + yr * (100 - datas.get(i)));
+                    canvas.drawPoint(x - xr * (100 - datas.get(i)), y + yr * (100 - datas.get(i)), paintP);
                     break;
                 case 2:
                     canvas.drawText(names[i], x + 10, y, paintT);
                     canvas.drawText(getPj(datas.get(i)), x + paintT.measureText(names[i]) + 15, y + 5, paintP);
-                    canvas.drawPoint(x - xr * (100 - datas.get(i)), y - yr * (100 - datas.get(i)), paintP);
-                    path1.lineTo(x - xr * (100 - datas.get(i)), y - yr * (100 - datas.get(i)));
                     path2.lineTo(x - xr * (100 - datas.get(i)), y - yr * (100 - datas.get(i)));
+                    path1.lineTo(x - xr * (100 - datas.get(i)), y - yr * (100 - datas.get(i)));
+                    canvas.drawPoint(x - xr * (100 - datas.get(i)), y - yr * (100 - datas.get(i)), paintP);
                     break;
                 case 4:
                     canvas.drawText(names[i], x - paintT.measureText(names[i]) - paintP.measureText(getPj(datas.get(i))) - 15, y, paintT);
                     canvas.drawText(getPj(datas.get(i)), x - paintP.measureText(getPj(datas.get(i))) - 10, y + 5, paintP);
-                    canvas.drawPoint(x + xr * (100 - datas.get(i)), y - yr * (100 - datas.get(i)), paintP);
-                    path1.lineTo(x + xr * (100 - datas.get(i)), y - yr * (100 - datas.get(i)));
                     path2.lineTo(x + xr * (100 - datas.get(i)), y - yr * (100 - datas.get(i)));
+                    path1.lineTo(x + xr * (100 - datas.get(i)), y - yr * (100 - datas.get(i)));
+                    canvas.drawPoint(x + xr * (100 - datas.get(i)), y - yr * (100 - datas.get(i)), paintP);
                     break;
                 case 5:
                     canvas.drawText(names[i], x - paintT.measureText(names[i]) - paintP.measureText(getPj(datas.get(i))) - 15, y, paintT);
                     canvas.drawText(getPj(datas.get(i)), x - paintP.measureText(getPj(datas.get(i))) - 10, y + 5, paintP);
-                    canvas.drawPoint(x + xr * (100 - datas.get(i)), y + yr * (100 - datas.get(i)), paintP);
-                    path1.lineTo(x + xr * (100 - datas.get(i)), y + yr * (100 - datas.get(i)));
                     path2.lineTo(x + xr * (100 - datas.get(i)), y + yr * (100 - datas.get(i)));
+                    path1.lineTo(x + xr * (100 - datas.get(i)), y + yr * (100 - datas.get(i)));
+                    canvas.drawPoint(x + xr * (100 - datas.get(i)), y + yr * (100 - datas.get(i)), paintP);
                     break;
 
                 case 6:
-                    path1.lineTo(x, y + r / 100 * (100 - datas.get(0)));
                     path2.lineTo(x, y + r / 100 * (100 - datas.get(0)));
+                    path1.lineTo(x, y + r / 100 * (100 - datas.get(0)));
                     break;
             }
 
