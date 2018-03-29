@@ -12,14 +12,30 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <com.zyl.myline.view.Today.TimeView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/etn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="time" />
+
         <com.zyl.myline.view.Today.zhuChat
             android:layout_width="wrap_content"
-            android:layout_height="350dp" />
+            android:layout_height="500dp" />
 
         <com.zyl.myline.view.Today.HView
             android:id="@+id/hv"
             android:layout_width="wrap_content"
-            android:layout_height="320dp" />
+            android:layout_height="500dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -33,13 +49,13 @@
         <com.zyl.myline.view.Today.ProgressView
             android:id="@+id/pv"
             android:layout_width="wrap_content"
-            android:layout_height="400dp" />
+            android:layout_height="500dp" />
 
 
         <Button
-            android:onClick="start"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:onClick="start" />
 
         <!--<android.support.v7.widget.RecyclerView-->
         <!--android:id="@+id/rcy"-->

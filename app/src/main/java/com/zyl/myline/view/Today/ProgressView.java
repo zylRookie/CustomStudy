@@ -77,3 +77,4 @@ public class ProgressView extends View {
         canvas.drawText(text, getWidth() / 2 - paintT.measureText(text) / 2, getWidth() / 2 + 20, paintT);
     }
 }
+

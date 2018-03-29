@@ -7,7 +7,6 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -64,7 +63,6 @@ public class AnimtorView extends View {
 
         for (int i = 0; i < arrayDatas.size(); i++) {
             canvas.drawRect(new RectF(left, 100+100*i, progress, 100+100*i+50), paint);
-            Log.e("AAA", "onDraw: -------:>>>"+ progress );
         }
 
 
